@@ -13,7 +13,7 @@ Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 local Tab = Window:MakeTab({
-	Name = "Tab",
+	Name = "Keyless",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -73,7 +73,7 @@ Callback = <function> - The function of the button.
 Name = <string> - The name of the section.
 ]]
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Null Fire",
 	Callback = function()
 		loadstring(game:HttpGet("https://rawscripts.net/raw/Funky-Friday-Fire-Hub-18850"))()
       		print("button pressed")
@@ -92,7 +92,7 @@ Callback = <function> - The function of the button.
 Name = <string> - The name of the section.
 ]]
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Flick",
 	Callback = function()
 		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Flick-no-keyless-239471"))()
       		print("button pressed")
